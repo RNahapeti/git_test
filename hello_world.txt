@@ -1,4 +1,20 @@
 Well this is a test
 And hopefully we'll learn all the terminology soon.
-'add' adds uncommited files/changes to the staging area
-'status' checks on the current status of files within a git repository
+
+Basic Git Syntax is PROGRAM  |  ACTION  |  DESTINATION
+Ex:                   git    |   add    |      .
+
+Common commands:
+    $ git clone     # copy/paste SSH key from GitHub - copy GitHub repo onto local machine
+    $ git push
+      or
+    $ git push origin main      # upload all current commits back over to GitHub
+    $ git add .     # add all new changes and files to staging area
+    $ git add file_name.txt     # add specific file or folder to staging area
+    $ git commit -m "Insert message here"      # commit changes in staging area to local machine git - '-m ""' adds a commit message to describe the changes
+    $ git status        # check the current status of local repo (staged/unstaged changes to repo since last commit)
+    $ git log       # pull the log for current repository - all changes and edits that have been made, timestamped and labeled by user
+
+Best Practices:
+    - Atomic Commits: commits that only change one feature or task - helpful for precise commit messages, and also easier to pinpoint the source of the problem if changes were problematic.
+    - Update terminal config to take advantage of VS code to create commit messages if you forget to add the '-m' flag. Enter the following command in terminal to make those changes: git config --global core.editor "code --wait"
