@@ -1,3 +1,2 @@
 # git_test
-TOP first GitHub repo
-Hello Odin!
+TOP first GitHub repo - testing connection
