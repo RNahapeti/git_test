@@ -1,0 +1,4 @@
+Well this is a test
+And hopefully we'll learn all the terminology soon.
+'add' adds uncommited files/changes to the staging area
+'status' checks on the current status of files within a git repository
